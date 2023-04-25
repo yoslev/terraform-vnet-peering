@@ -3,7 +3,7 @@
 This project demonstrates creation of two separate vnetS with peering and FW.
 When created, you can connect (by RDP from your machine) to a vm in vnet1 and from there to connect by RDP to the vm in vnet2.
 
-##Content
+##Content<br>
 Each vnet project is a single independent project with:<br>
 separate backend (state)
 1 azurerm_resource_group<br>
