@@ -1,0 +1,13 @@
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+out
+terraform.exe
+.terraform.lock.hcl
+/**/.idea/*
+**/.idea/**
+.idea/misc.xml
+.idea/.gitignore
