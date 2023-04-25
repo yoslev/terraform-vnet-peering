@@ -7,11 +7,10 @@ terraform {
     }
   }
   backend "azurerm" {
-    resource_group_name  = "99management"
-    storage_account_name = "99management"
+    resource_group_name  = "management2"
+    storage_account_name = "management2"
     container_name       = "tfstate"
-    subscription_id      = "46306db1-ba78-4ed8-9ab9-5a7e52f587b0"
-    #key                  = "Q8H9FNl9l4OR1wyBfc0itNT9p40sbmxoMdyotuUcWtnBSqL70GEkcy8G5qCkpsJ1xl3mtbuCuJJM+AStcBg8eg=="
+    subscription_id      = "46306db1...2f587b0"
 	key = "dev/yl2"
   }
 }
